@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    /* 外边距 */
+    padding: 0;
+    /* 内边距 */
+    border: 0;
+    /* 边框 */
+    color: #333;
+}
+
+.el-container {
+    height: 100vh;
+
+}
+
+.el-header {
+    background-color: #cbf1f5;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid rgb(133, 205, 233);
+}
+
+.el-aside {
+    background-color: rgb(48, 65, 86);
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+}
+
+.el-main {
+    background-color: #e4f9f5;
+    color: #333;
+    text-align: center;
+}
+
+body > .el-container {
+    margin-bottom: 40px;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+}
+
+.el-col-12 {
+    width: 100% !important;
+}
+
+.el-aside {
+    text-align: left !important;
+    background-color: #71c9ce;
+}
+
+/*
+.el-menu-vertical-demo {
+  background-color: rgb(48, 65, 86);
+
+} */
+
+.el-menu .el-meau-item :hover {
+    background-color: rgb(#a6e3e9) !important;
+}
+
+el-menu .el-meau-item {
+    background-color: rgb(#71c9ce) !important;
+}
+
+el-menu .el-breadcrumb {
+    font-size: 14px;
+    line-height: 4px !important;
+}
+
+el-radio-group {
+    background-color: #71c9ce;
+}
+
+.el-menu {
+    background-color: #71c9ce !important;
+}
+
+.el-icon-location:before {
+    color: black;
+}
+
+.el-icon-menu:before {
+    color: black;
+}
+
+.el-icon-document:before {
+    color: black;
+}
+
+.el-icon-setting:before {
+    color: black;
+}
+
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+    background-color: #518b8f !important;
+}
+
+.head {
+
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.left {
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}

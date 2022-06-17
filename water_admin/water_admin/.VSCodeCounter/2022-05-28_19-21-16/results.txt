@@ -1,0 +1,148 @@
+Date : 2022-05-28 19:21:16
+Directory : f:\waterManager\water_admin
+Total : 99 files,  18210 codes, 412 comments, 527 blanks, all 19149 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |         41 |     11,720 |          0 |          3 |     11,723 |
+| Vue        |         29 |      3,536 |        200 |        222 |      3,958 |
+| JavaScript |         17 |      1,566 |        158 |         53 |      1,777 |
+| CSS        |          6 |        926 |         36 |        167 |      1,129 |
+| HTML       |          2 |        395 |         13 |         47 |        455 |
+| XML        |          1 |         30 |          3 |         27 |         60 |
+| Less       |          2 |         22 |          2 |          3 |         27 |
+| Markdown   |          1 |         15 |          0 |          5 |         20 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                        |         99 |     18,210 |        412 |        527 |     19,149 |
+| public                                                                   |         42 |      1,094 |         35 |          7 |      1,136 |
+| public\static                                                            |         41 |      1,075 |         24 |          6 |      1,105 |
+| public\static\lib                                                        |          1 |          1 |         18 |          4 |         23 |
+| public\static\map                                                        |         38 |         38 |          0 |          0 |         38 |
+| public\static\map\province                                               |         34 |         34 |          0 |          0 |         34 |
+| public\static\theme                                                      |          2 |      1,036 |          6 |          2 |      1,044 |
+| src                                                                      |         52 |      5,479 |        369 |        509 |      6,357 |
+| src\CSS                                                                  |          4 |        418 |         17 |         67 |        502 |
+| src\api                                                                  |          2 |        185 |         16 |          7 |        208 |
+| src\assets                                                               |          8 |      1,023 |         26 |        177 |      1,226 |
+| src\assets\css                                                           |          2 |         46 |          2 |          3 |         51 |
+| src\assets\font                                                          |          6 |        977 |         24 |        174 |      1,175 |
+| src\components                                                           |         25 |      3,200 |        192 |        180 |      3,572 |
+| src\components\page                                                      |         10 |      1,183 |        109 |         72 |      1,364 |
+| src\router                                                               |          1 |        126 |         18 |         10 |        154 |
+| src\store                                                                |          2 |         39 |         17 |          4 |         60 |
+| src\tools                                                                |          5 |        129 |         60 |         20 |        209 |
+| src\views                                                                |          3 |        305 |          8 |         38 |        351 |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                 | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| f:\waterManager\water_admin\README.md                                    | Markdown   |         15 |          0 |          5 |         20 |
+| f:\waterManager\water_admin\babel.config.js                              | JavaScript |          5 |          0 |          1 |          6 |
+| f:\waterManager\water_admin\package-lock.json                            | JSON       |     11,562 |          0 |          1 |     11,563 |
+| f:\waterManager\water_admin\package.json                                 | JSON       |         34 |          0 |          1 |         35 |
+| f:\waterManager\water_admin\public\index.html                            | HTML       |         19 |         11 |          1 |         31 |
+| f:\waterManager\water_admin\public\static\lib\echarts.min.js             | JavaScript |          1 |         18 |          4 |         23 |
+| f:\waterManager\water_admin\public\static\map\china-cities.json          | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\china-contour.json         | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\china.json                 | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\anhui.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\aomen.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\beijing.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\chongqing.json    | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\fujian.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\gansu.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\guangdong.json    | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\guangxi.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\guizhou.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\hainan.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\hebei.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\heilongjiang.json | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\henan.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\hubei.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\hunan.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\jiangsu.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\jiangxi.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\jilin.json        | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\liaoning.json     | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\neimenggu.json    | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\ningxia.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\qinghai.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\shandong.json     | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\shanghai.json     | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\shanxi.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\shanxi1.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\sichuan.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\taiwan.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\tianjin.json      | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\xianggang.json    | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\xinjiang.json     | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\xizang.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\yunnan.json       | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\province\zhejiang.json     | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\map\world.json                 | JSON       |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\public\static\theme\chalk.js                 | JavaScript |        518 |          3 |          1 |        522 |
+| f:\waterManager\water_admin\public\static\theme\vintage.js               | JavaScript |        518 |          3 |          1 |        522 |
+| f:\waterManager\water_admin\src\App.vue                                  | Vue        |         31 |          0 |          4 |         35 |
+| f:\waterManager\water_admin\src\CSS\HelloWord.css                        | CSS        |         88 |          8 |         24 |        120 |
+| f:\waterManager\water_admin\src\CSS\index.css                            | CSS        |          0 |          0 |          1 |          1 |
+| f:\waterManager\water_admin\src\CSS\index.less                           | Less       |          0 |          0 |          1 |          1 |
+| f:\waterManager\water_admin\src\CSS\style.css                            | CSS        |        330 |          9 |         41 |        380 |
+| f:\waterManager\water_admin\src\api\login.js                             | JavaScript |         24 |          8 |          3 |         35 |
+| f:\waterManager\water_admin\src\api\user.js                              | JavaScript |        161 |          8 |          4 |        173 |
+| f:\waterManager\water_admin\src\assets\css\global.css                    | CSS        |         24 |          0 |          1 |         25 |
+| f:\waterManager\water_admin\src\assets\css\global.less                   | Less       |         22 |          2 |          2 |         26 |
+| f:\waterManager\water_admin\src\assets\font\demo.css                     | CSS        |        435 |         19 |         86 |        540 |
+| f:\waterManager\water_admin\src\assets\font\demo_index.html              | HTML       |        376 |          2 |         46 |        424 |
+| f:\waterManager\water_admin\src\assets\font\iconfont.css                 | CSS        |         49 |          0 |         14 |         63 |
+| f:\waterManager\water_admin\src\assets\font\iconfont.js                  | JavaScript |          1 |          0 |          0 |          1 |
+| f:\waterManager\water_admin\src\assets\font\iconfont.json                | JSON       |         86 |          0 |          1 |         87 |
+| f:\waterManager\water_admin\src\assets\font\iconfont.svg                 | XML        |         30 |          3 |         27 |         60 |
+| f:\waterManager\water_admin\src\components\alarmSet.vue                  | Vue        |        144 |          6 |          9 |        159 |
+| f:\waterManager\water_admin\src\components\alarmTime.vue                 | Vue        |        146 |          6 |         10 |        162 |
+| f:\waterManager\water_admin\src\components\checkManager.vue              | Vue        |        153 |         13 |         11 |        177 |
+| f:\waterManager\water_admin\src\components\checkUser.vue                 | Vue        |        155 |         13 |          8 |        176 |
+| f:\waterManager\water_admin\src\components\detectPoint.vue               | Vue        |        139 |          5 |          7 |        151 |
+| f:\waterManager\water_admin\src\components\editAlarmTimes.vue            | Vue        |        147 |          5 |          8 |        160 |
+| f:\waterManager\water_admin\src\components\editInfo.vue                  | Vue        |        282 |         10 |         12 |        304 |
+| f:\waterManager\water_admin\src\components\editInitData.vue              | Vue        |        147 |          2 |          9 |        158 |
+| f:\waterManager\water_admin\src\components\editNowAlarmLevel.vue         | Vue        |         69 |          1 |          3 |         73 |
+| f:\waterManager\water_admin\src\components\error.vue                     | Vue        |         26 |          0 |          4 |         30 |
+| f:\waterManager\water_admin\src\components\head.vue                      | Vue        |         70 |          2 |          6 |         78 |
+| f:\waterManager\water_admin\src\components\home.vue                      | Vue        |        145 |          6 |          9 |        160 |
+| f:\waterManager\water_admin\src\components\login.vue                     | Vue        |        240 |         13 |          2 |        255 |
+| f:\waterManager\water_admin\src\components\myInfo.vue                    | Vue        |        135 |          1 |          6 |        142 |
+| f:\waterManager\water_admin\src\components\page\acceleration.vue         | Vue        |        168 |         17 |          9 |        194 |
+| f:\waterManager\water_admin\src\components\page\alarmInfo.vue            | Vue        |        152 |         29 |          9 |        190 |
+| f:\waterManager\water_admin\src\components\page\alarmTime.vue            | Vue        |         83 |          2 |          4 |         89 |
+| f:\waterManager\water_admin\src\components\page\contrast.vue             | Vue        |        212 |         19 |          9 |        240 |
+| f:\waterManager\water_admin\src\components\page\dataInfo.vue             | Vue        |         72 |          3 |          5 |         80 |
+| f:\waterManager\water_admin\src\components\page\height.vue               | Vue        |         50 |          3 |          6 |         59 |
+| f:\waterManager\water_admin\src\components\page\map.vue                  | Vue        |        178 |         19 |          6 |        203 |
+| f:\waterManager\water_admin\src\components\page\speed.vue                | Vue        |        169 |         14 |         12 |        195 |
+| f:\waterManager\water_admin\src\components\page\speedPage.vue            | Vue        |         34 |          0 |          4 |         38 |
+| f:\waterManager\water_admin\src\components\page\waterSpeed.vue           | Vue        |         65 |          3 |          8 |         76 |
+| f:\waterManager\water_admin\src\components\start.vue                     | Vue        |         19 |          0 |          4 |         23 |
+| f:\waterManager\water_admin\src\main.js                                  | JavaScript |         23 |         15 |          2 |         40 |
+| f:\waterManager\water_admin\src\router\index.js                          | JavaScript |        126 |         18 |         10 |        154 |
+| f:\waterManager\water_admin\src\store\Bus.js                             | JavaScript |          2 |          8 |          1 |         11 |
+| f:\waterManager\water_admin\src\store\index.js                           | JavaScript |         37 |          9 |          3 |         49 |
+| f:\waterManager\water_admin\src\tools\SocketService.js                   | JavaScript |         44 |         17 |          4 |         65 |
+| f:\waterManager\water_admin\src\tools\cookie.js                          | JavaScript |         19 |         11 |          2 |         32 |
+| f:\waterManager\water_admin\src\tools\fun.js                             | JavaScript |          3 |          8 |          2 |         13 |
+| f:\waterManager\water_admin\src\tools\map_utils.js                       | JavaScript |         43 |          8 |          2 |         53 |
+| f:\waterManager\water_admin\src\tools\request.js                         | JavaScript |         20 |         16 |         10 |         46 |
+| f:\waterManager\water_admin\src\views\About.vue                          | Vue        |          5 |          0 |          1 |          6 |
+| f:\waterManager\water_admin\src\views\Home.vue                           | Vue        |         22 |          1 |          3 |         26 |
+| f:\waterManager\water_admin\src\views\index.vue                          | Vue        |        278 |          7 |         34 |        319 |
+| f:\waterManager\water_admin\vue.config.js                                | JavaScript |         21 |          8 |          3 |         32 |
+| Total                                                                    |            |     18,210 |        412 |        527 |     19,149 |
++--------------------------------------------------------------------------+------------+------------+------------+------------+------------+
